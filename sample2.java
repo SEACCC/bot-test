@@ -73,7 +73,7 @@ public class ClosedMarketplaceFilter extends BaseBesFilter implements Filter {
         if (!httpRequest.getServletPath().matches(excludeUrlPattern)) {
             String mId = httpRequest
                     .getParameter(Constants.REQ_PARAM_MARKETPLACE_ID);
-            if (mId == null || "".equals(mId)) {
+            if (mId == null) {
                 mId = (String) httpRequest.getSession().getAttribute(
                         Constants.REQ_PARAM_MARKETPLACE_ID);
             }
