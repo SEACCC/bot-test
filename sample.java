@@ -80,7 +80,7 @@ public class ClosedMarketplaceFilter extends BaseBesFilter implements Filter {
             VOUserDetails voUserDetails = (VOUserDetails) httpRequest
                     .getSession().getAttribute(Constants.SESS_ATTR_USER);
 
-            if (mId == null || mId == "") {
+            if (mId == null || mId.equals("") || configBean == null) {
                 chain.doFilter(request, response);
                 return;
             }
