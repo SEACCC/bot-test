@@ -18,10 +18,7 @@ import javax.ws.rs.WebApplicationException;
  * @author miethaner
  */
 public abstract class RequestParameters {
-
-    private int version;
-
-    @PathParam(CommonParams.PARAM_ID)
+M_ID)
     private Long id;
 
     @HeaderParam(CommonParams.PARAM_MATCH)
