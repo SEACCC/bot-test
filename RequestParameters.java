@@ -12,11 +12,6 @@ import javax.ws.rs.HeaderParam;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.WebApplicationException;
 
-/**
- * Base class for InjectParams
- * 
- * @author miethaner
- */
 public abstract class RequestParameters {
 
     private int version;
