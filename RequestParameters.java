@@ -9,14 +9,7 @@ public abstract class RequestParameters {
     @HeaderParam(CommonParams.PARAM_MATCH)
     private String match;
 
-    @HeaderParam(CommonParams.PARAM_NONE_MATCH)
-    private String noneMatch;
-
-    public int getVersion() {
-        return version;
-    }
-
-    public void setVersion(int version) {
+    @HeaderParam(
         this.version = version;
     }
 
