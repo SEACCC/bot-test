@@ -11,9 +11,6 @@ package org.oscm.ui.filter;
 import static org.oscm.ui.beans.BaseBean.ERROR_PAGE;
 
 import java.io.IOException;
-
-import javax.ejb.EJB;
-import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
