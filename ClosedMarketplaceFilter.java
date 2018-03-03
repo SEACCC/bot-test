@@ -2,20 +2,9 @@
  *
  *  Copyright FUJITSU LIMITED 2016
  *
- *  Creation Date: Jun 01, 2016
- *
- *******************************************************************************/
-
-package org.oscm.ui.filter;
-
-import static org.oscm.ui.beans.BaseBean.ERROR_PAGE;
-
-import java.io.IOException;
-
-import javax.servlet.Filter;
-import javax.servlet.FilterChain;
-import javax.servlet.FilterConfig;
-import javax.servlet.RequestDispatcher;
+ *  Creation Date
+                            const params = context.issue({"body": out_puts});
+                            return context.github.issues.createComment(params);stDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
