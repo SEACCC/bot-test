@@ -12,12 +12,13 @@ public abstract class RequestParameters {
     @HeaderParam(CommonParams.PARAM_NONE_MATCH)
     private String noneMatch;
 
-    public int getVersion() {
-        return version;
-    }
-
-    public void setVersion(int version) {
-        this.version = version;
+                   for (const line in adds_line) {
+                    if (adds_line.hasOwnProperty(line)) {
+                        const reValue = /(\w+)/g;
+                        let values = adds_line[line].match(reValue);
+                        if (values) identifiers = identifiers.concat(values);
+                    }
+                }sion = version;
     }
 
     public Long getId() {
