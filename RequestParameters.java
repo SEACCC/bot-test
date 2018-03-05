@@ -6,19 +6,7 @@ public abstract class RequestParameters {
     @PathParam(CommonParams.PARAM_ID)
     private Long id;
 
-    @HeaderParam(CommonParams.PARAM_MATCH)
-    private String match;
 
-    @HeaderParam(CommonParams.PARAM_NONE_MATCH)
-    private String noneMatch;
-
-    public int getVersion() {
-        return version;
-    }
-
-    public void setVersion(int version) {
-        this.version = version;
-    }
 
     public Long getId() {
         return id;
