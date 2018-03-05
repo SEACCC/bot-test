@@ -12,9 +12,7 @@ import static org.oscm.ui.beans.BaseBean.ERROR_PAGE;
 
 import java.io.IOException;
 
-import javax.servlet.Filter;
-import javax.servlet.FilterChain;
-import javax.servlet.FilterConfig;
+
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
