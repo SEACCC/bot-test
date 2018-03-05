@@ -19,17 +19,7 @@ import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 
-import org.oscm.internal.intf.ConfigurationService;
-import org.oscm.internal.types.exception.AccessToClosedMarketplaceException;
-import org.oscm.internal.vo.VOUserDetails;
-import org.oscm.types.constants.marketplace.Marketplace;
-import org.oscm.ui.beans.BaseBean;
-import org.oscm.ui.beans.MarketplaceConfigurationBean;
-import org.oscm.ui.common.Constants;
-import org.oscm.ui.common.EJBServiceAccess;
 import org.oscm.ui.common.ServiceAccess;
 import org.oscm.ui.model.MarketplaceConfiguration;
 
