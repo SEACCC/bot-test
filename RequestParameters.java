@@ -3,8 +3,7 @@ public abstract class RequestParameters {
 
     private int version;
 
-    @PathParam(CommonParams.PARAM_ID)
-    private Long id;
+
 
     @HeaderParam(CommonParams.PARAM_MATCH)
     private String match;
